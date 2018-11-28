@@ -48,7 +48,12 @@
 * https://www.apple.com: 200 OK
 * https://www.msn.com: 302 Found
 >302 Found — запрошенный документ временно доступен по другому URI, указанному в заголовке в поле Location
+
+> status:	302  
+location:	https://www.msn.com/ru-ru/
+
 * https://vk.com: 501 Not Implemented
+>501 Not Implemented — сервер не поддерживает возможностей, необходимых для обработки запроса. Типичный ответ для случаев, когда сервер не понимает указанный в запросе метод.
 
 Сайт www.apple.com прислал ожидаемый ответ:
 >Server: Apache
@@ -64,10 +69,6 @@ Expires: Thu, 01 Nov 2018 05:39:55 GMT
 Date: Thu, 01 Nov 2018 05:33:01 GMT
 Connection: keep-alive
 Vary: Accept-Encoding
-
-Код ответа сайта www.msn.com говорит о том, что расположение запрашиваемого ресурса временно изменено, ресурс находится по адресу location:
-> status:	302  
-location:	https://www.msn.com/ru-ru/
 
 #### Запрос GET
 
