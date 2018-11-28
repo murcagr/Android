@@ -55,20 +55,23 @@ location:	https://www.msn.com/ru-ru/
 * https://vk.com: 501 Not Implemented
 >501 Not Implemented — сервер не поддерживает возможностей, необходимых для обработки запроса. Типичный ответ для случаев, когда сервер не понимает указанный в запросе метод.
 
-Сайт www.apple.com прислал ожидаемый ответ:
->Server: Apache
-X-Frame-Options: SAMEORIGIN
-X-Xss-Protection: 1; mode=block
-Accept-Ranges: bytes
-X-Content-Type-Options: nosniff
-Content-Type: text/html; charset=UTF-8
-Content-Encoding: gzip
-Content-Length: 7796
-Cache-Control: max-age=414
-Expires: Thu, 01 Nov 2018 05:39:55 GMT
-Date: Thu, 01 Nov 2018 05:33:01 GMT
-Connection: keep-alive
-Vary: Accept-Encoding
+Сайт www.apple.com прислал ответ:
+>Server:	Apache  
+X-Frame-Options:	SAMEORIGIN  
+X-Xss-Protection:	1; mode=block  
+Accept-Ranges:	bytes  
+X-Content-Type-Options:	nosniff  
+Content-Type:	text/html; charset=UTF-8  
+Vary:	Accept-Encoding  
+Content-Encoding:	gzip  
+Cache-Control:  
+max-age=2m 44s  
+Expires:	 
+Wed, 28 Nov 2018 04:14:14 GMT+2m 25s  
+Date:	 
+Wed, 28 Nov 2018 04:11:30 GMT-19s  
+Content-Length:	7 kilobytes  
+Connection:	keep-alive  
 
 #### Запрос GET
 
